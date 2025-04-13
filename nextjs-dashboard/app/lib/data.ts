@@ -13,7 +13,7 @@ const sql = postgres(process.env.POSTGRES_URL!, { ssl: 'require' });
 
 export async function fetchRevenue() {
   try {
-    // Artificially delay a response for demo purposesss
+    // Artificially delay a response for demo purpose
     // Don't do this in production :)
 
     // console.log('Fetching revenue data...');
